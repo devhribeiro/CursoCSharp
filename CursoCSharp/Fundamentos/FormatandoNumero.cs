@@ -12,6 +12,9 @@ namespace CursoCSharp.Fundamentos {
 
             CultureInfo cultura = new CultureInfo("pt-BR");
             Console.WriteLine(valor.ToString("C2", cultura));
+
+            int inteiro = 256;
+            Console.WriteLine(inteiro.ToString("D10"));
         }
 
     }
